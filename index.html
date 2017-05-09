@@ -41,7 +41,11 @@
 			<a href="http://www.twitter.com/kevinkieninger" target="_blank"><img src="img/icons/twitter-icon.svg" alt="Twitter Icon" class="social"></a>
 			<a href="http://www.github.com/kkieninger" target="_blank"><img src="img/icons/github-icon.svg" alt="GitHub Icon" class="social"></a>
 			<a href="https://www.linkedin.com/in/kkieninger" target="_blank"><img src="img/icons/linkedin-icon.svg" alt="LinkedIn Icon" class="social"></a>
-			<p>kevin kieninger | 2015</p>
+			<script>
+				var currentTime = new Date();
+				var year = currentTime.getFullYear();
+				document.write('<p>kevin kieninger | ' + year + '</p>');
+			</script>
 		</footer>
 	</body>
 </html>
